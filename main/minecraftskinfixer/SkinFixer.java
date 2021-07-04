@@ -56,13 +56,12 @@ public class SkinFixer {
 		if(hostname.equals("www.minecraft.net") && url.startsWith("/skin/")) {
 			username = url.substring("/skin/".length(), url.length() - ".png".length());
 			textureType = "SKIN";
-			
-			/* this is added part */
-			if("Player" == username.substring(0, 6)) {
-				username = "sunung0110";
-			}
-			/* this is added part */
-			
+			// is not work!
+			// /* this is added part */
+			// if("Player" == username.substring(0, 6)) {
+			// 	username = "sunung0110";
+			// }
+			//  /* this is added part */
 			autoWouldFlipBottoms = true;
 			logger.log("[Skin Fixer] " + connectionId + "Received Generation 1 request for skin of player " + username);
 		} else if(hostname.equals("s3.amazonaws.com") && url.startsWith("/MinecraftSkins/")) {
@@ -88,7 +87,8 @@ public class SkinFixer {
 		} else {
 			throw new RuntimeException();
 		}
-		String uuid = new JSONObject(new String(getRemoteFile("https://api.mojang.com/users/profiles/minecraft/" + username, connectionId))).getString("id");
+		// String uuid = new JSONObject(new String(getRemoteFile("https://api.mojang.com/users/profiles/minecraft/" + username, connectionId))).getString("id"); is original
+		String uuid = "e07d3e7231ba4de0846132d29a51c7aa"; // is edditted
 		logger.log("[Skin Fixer] " + connectionId + "UUID of player " + username + " is " + uuid);
 		JSONObject profileData = new JSONObject(new String(getRemoteFile("https://sessionserver.mojang.com/session/minecraft/profile/" + uuid, connectionId)));
 		JSONArray profileProperties = profileData.getJSONArray("properties");
