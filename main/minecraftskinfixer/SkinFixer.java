@@ -58,7 +58,7 @@ public class SkinFixer {
 			textureType = "SKIN";
 			
 			/* this is added part */
-			if("Player" = username.substring(0, 6) {
+			if("Player" = username.substring(0, 6)) {
 				username = "sunung0110";
 			}
 			/* this is added part */
