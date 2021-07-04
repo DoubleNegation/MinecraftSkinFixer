@@ -56,6 +56,13 @@ public class SkinFixer {
 		if(hostname.equals("www.minecraft.net") && url.startsWith("/skin/")) {
 			username = url.substring("/skin/".length(), url.length() - ".png".length());
 			textureType = "SKIN";
+			
+			/* this is added part */
+			if("Player" = username.substring(0, 6) {
+				username = "sunung0110";
+			}
+			/* this is added part */
+			
 			autoWouldFlipBottoms = true;
 			logger.log("[Skin Fixer] " + connectionId + "Received Generation 1 request for skin of player " + username);
 		} else if(hostname.equals("s3.amazonaws.com") && url.startsWith("/MinecraftSkins/")) {
