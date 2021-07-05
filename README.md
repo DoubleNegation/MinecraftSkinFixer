@@ -25,6 +25,8 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 
 ---
 
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
+
 ---
 
 ****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
@@ -36,10 +38,12 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 
 **NOTE: Versions 2.2 and 2.3 were removed.**  
 This is because the mods for 1.6.2, 1.6.4 and 1.7.2 which shipped with them did not comply with Minecraft's EULA.  
-I hope to eventually release a version 2.5 with new, compliant mods.  
+***I hope to eventually release a version 2.5 with new, compliant mods.  -> This line means do NOT use the current mode. Minecraft fandom wiki Fxxkers.***
 *And in case you are wondering: 1.x, 2.0 and 2.1 were never released in the first place.*
 
 ---
+
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 ### Supported Minecraft Versions
 
@@ -47,6 +51,8 @@ All Minecraft versions since the introduction of custom skins up to release 1.5.
 However, if you are using a version between release 1.0 and release 1.2.5, you need to supply the `--flip-bottoms=off` parameter when launching the program to make the skins render correctly.
 
 ---
+
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 ### Usage instructions:
 1. Download the MinecraftSkinFixer .jar file from the releases tab
@@ -56,6 +62,8 @@ However, if you are using a version between release 1.0 and release 1.2.5, you n
 5. Launch Minecraft
 
 ---
+
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 The main program has two dependencies:
 * [Non-standard JRE HTTP server](https://docs.oracle.com/javase/8/docs/jre/api/net/httpserver/spec/index.html) (included in most JREs)
