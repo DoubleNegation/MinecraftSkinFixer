@@ -26,6 +26,7 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 ~~The [Minecraft Forum Thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2923190-minecraftskinfixer-skins-in-old-minecraft-versions) contains more information.~~  
 *The Minecraft Forum Thread dissappeared around December 2018/January 2019, together with my Minecraft Forum Account.*
 
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki.****
 **NOTE: Versions 2.2 and 2.3 were removed.**  
 This is because the mods for 1.6.2, 1.6.4 and 1.7.2 which shipped with them did not comply with Minecraft's EULA.  
 I hope to eventually release a version 2.5 with new, compliant mods.  
