@@ -1,5 +1,7 @@
 # MinecraftSkinFixer
 
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
+
 MinecraftSkinFixer is a simple program which allows old versions of Minecraft to download Skins from the new Skin servers.
 
 
@@ -9,6 +11,8 @@ MinecraftSkinFixer is a simple program which allows old versions of Minecraft to
 This version is a modified version for my personal use, and the existing code worked in the beta version but did not work in the alpha version. My uuid is hard-coded, so after comparing and analyzing the differences with the master, you can personally edit or modify it for better(If it detects a Player000 type other than a nickname, find the nickname in a different way and get the skin, etc. - I don't know what to do.)use.
 
 ---
+
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 ---
 
@@ -22,6 +26,8 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 ---
 
 ---
+
+****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 ~~The [Minecraft Forum Thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2923190-minecraftskinfixer-skins-in-old-minecraft-versions) contains more information.~~  
 *The Minecraft Forum Thread dissappeared around December 2018/January 2019, together with my Minecraft Forum Account.*
