@@ -10,6 +10,15 @@ This version is a modified version for my personal use, and the existing code wo
 
 ---
 
+---
+
+이 버전은 이미 이전의 EULA 위반이 "제거된" 버전입니다. 마인크래프트 팬덤 위키 개새끼들아.
+그리고 이것의 적용을 위해 모드가 필요한 버전은 1.6부터 1.7.5이며, 모드 없이는 동작하지 않고 그 모드는 EULA위반으로 이미 제거되었습니다 엠생들아.
+Previous EULA violations are already "removed" versions. Mine Craft Fandom Wiki.
+And the versions that need the mod for this to work are from 1.6 to 1.7.5. 1.6 to 1.7.5 doesn't work without mods and those mods have already been removed for EULA violations.
+
+---
+
 
 ~~The [Minecraft Forum Thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2923190-minecraftskinfixer-skins-in-old-minecraft-versions) contains more information.~~  
 *The Minecraft Forum Thread dissappeared around December 2018/January 2019, together with my Minecraft Forum Account.*
