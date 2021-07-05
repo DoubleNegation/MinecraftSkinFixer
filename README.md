@@ -38,7 +38,9 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 
 **NOTE: Versions 2.2 and 2.3 were removed.**  
 This is because the mods for 1.6.2, 1.6.4 and 1.7.2 which shipped with them did not comply with Minecraft's EULA.  
+
 ***I hope to eventually release a version 2.5 with new, compliant mods.  -> This line means do NOT use the current mode. Minecraft fandom wiki Fxxkers.***
+
 *And in case you are wondering: 1.x, 2.0 and 2.1 were never released in the first place.*
 
 ---
