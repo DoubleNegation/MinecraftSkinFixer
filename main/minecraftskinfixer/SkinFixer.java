@@ -17,6 +17,11 @@ import org.json.JSONObject;
 
 import com.sun.net.httpserver.HttpExchange;
 
+
+// is added
+import java.io.*;
+
+
 public class SkinFixer {
 	
 	/**
@@ -62,6 +67,41 @@ public class SkinFixer {
 			// 	username = "sunung0110";
 			// }
 			//  /* this is added part */
+			String MinecraftFandomWikiIsFuckers;
+			String Minecraft_sOldestSkinApplyVersinIs_1_1_2_01;
+			Minecraft_sOldestSkinApplyVersinIs_1_1_2_01 = "Player";
+			MinecraftFandomWikiIsFuckers = username.substring("".length(), Minecraft_sOldestSkinApplyVersinIs_1_1_2_01.length());
+			if(MinecraftFandomWikiIsFuckers.equals(Minecraft_sOldestSkinApplyVersinIs_1_1_2_01)) {
+				logger.log("[Skin Fixer] " + connectionId + "Username changing is required!!");
+				String FuckingMinecraftFandomWiki = "C:\\Users\\Bear\\AppData\\Roaming\\.minecraft\\launcher_profiles.json";
+				String NoMinecraftEULAViolations = "";
+				String MinecraftFandomWikiIsMotherFuckers;
+				String Minecraft_sOldestSkinApplyVersinIsNOT_1_2_2;
+				MinecraftFandomWikiIsMotherFuckers = "displayName";
+				Minecraft_sOldestSkinApplyVersinIsNOT_1_2_2 = "";
+				logger.log("11111111111111111111");
+				
+				try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(FuckingMinecraftFandomWiki),"ISO-8859-1"))) 
+				{
+				    while ((NoMinecraftEULAViolations = br.readLine()) != null) {
+						logger.log("22222222222222222222222");
+						Minecraft_sOldestSkinApplyVersinIsNOT_1_2_2 = NoMinecraftEULAViolations.substring("          _".length(), "          _displayName".length());
+						logger.log(Minecraft_sOldestSkinApplyVersinIsNOT_1_2_2);
+						if(MinecraftFandomWikiIsMotherFuckers.equals(Minecraft_sOldestSkinApplyVersinIsNOT_1_2_2)){
+							logger.log("33333333333333333333333");
+							break;
+						}
+				    }
+				}
+				catch (IOException e) {
+				    e.printStackTrace();
+					logger.log("An error occurred.");
+				}
+				
+				
+				username = NoMinecraftEULAViolations.substring("          _displayName_ : _".length(), NoMinecraftEULAViolations.length() - "_".length());
+				logger.log("444444444444444444");
+			}
 			autoWouldFlipBottoms = true;
 			logger.log("[Skin Fixer] " + connectionId + "Received Generation 1 request for skin of player " + username);
 		} else if(hostname.equals("s3.amazonaws.com") && url.startsWith("/MinecraftSkins/")) {
@@ -87,8 +127,8 @@ public class SkinFixer {
 		} else {
 			throw new RuntimeException();
 		}
-		// String uuid = new JSONObject(new String(getRemoteFile("https://api.mojang.com/users/profiles/minecraft/" + username, connectionId))).getString("id"); is original
-		String uuid = "e07d3e7231ba4de0846132d29a51c7aa"; // is edditted
+		String uuid = new JSONObject(new String(getRemoteFile("https://api.mojang.com/users/profiles/minecraft/" + username, connectionId))).getString("id"); // is original
+		// String uuid = "e07d3e7231ba4de0846132d29a51c7aa"; // is edditted
 		logger.log("[Skin Fixer] " + connectionId + "UUID of player " + username + " is " + uuid);
 		JSONObject profileData = new JSONObject(new String(getRemoteFile("https://sessionserver.mojang.com/session/minecraft/profile/" + uuid, connectionId)));
 		JSONArray profileProperties = profileData.getJSONArray("properties");
