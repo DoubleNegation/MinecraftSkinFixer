@@ -37,7 +37,8 @@ The version that can apply skin with this is from alpha 1.1.2_01 version. Not 1.
 ****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
 **NOTE: Versions 2.2 and 2.3 were removed.**  
-This is because the mods for 1.6.2, 1.6.4 and 1.7.2 which shipped with them did not comply with Minecraft's EULA.  
+
+***This is because the mods for 1.6.2, 1.6.4 and 1.7.2 which shipped with them did not comply with Minecraft's EULA.  -> This line means that there are currently no EULA violations. Minecraft fandom wiki Fxxers.***
 
 ***I hope to eventually release a version 2.5 with new, compliant mods.  -> This line means do NOT use the current mode. Minecraft fandom wiki Fxxkers.***
 
