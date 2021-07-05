@@ -2,6 +2,8 @@
 
 ****In version 2.4, EULA violations have already been completely removed. Minecraft fandom wiki Fxxkers.****
 
+---
+
 MinecraftSkinFixer is a simple program which allows old versions of Minecraft to download Skins from the new Skin servers.
 
 
